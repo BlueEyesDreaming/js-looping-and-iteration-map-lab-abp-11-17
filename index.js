@@ -1,23 +1,23 @@
 function lowerCaseDrivers(array){
-  return array.map(function(e){
-    return e.toLowerCase()
+  return array.map(function(name){
+    return name.toLowerCase()
   })
 }
 
 // drivers.map(function(name) {
-//   return lowerCaseDrivers = 
+//   return lowerCaseDrivers =
 // })
 
 
 // function map(array, callback) {
 //   const newArray = []
-// 
+//
 //   for (const element of array) {
 //     newArray.push(callback(element))
 //   }
 //   return newArray;
 // }
-// 
+//
 // const lowerCaseDrivers = map(drivers, function () {return newArray.toLowerCase()})
 
 
