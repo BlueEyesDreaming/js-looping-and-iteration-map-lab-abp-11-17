@@ -11,7 +11,7 @@ function nameToAttributes(array) {
   return array.map(function(fullName){
 
     })
-    return Object.assign({}, firstName, lastName)
+    return Object.assign({}, drivers, firstName, lastName)
 
 }
 
