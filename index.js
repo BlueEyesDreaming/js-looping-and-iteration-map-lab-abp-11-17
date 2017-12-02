@@ -4,9 +4,6 @@ function lowerCaseDrivers(array){
   })
 }
 
-
-
-
 function nameToAttributes(names) {
   return names.map(function(driver){
     let first = driver.split(" ")[0]
