@@ -7,12 +7,12 @@ function lowerCaseDrivers(array){
 
 
 
-function nameToAttributes(array) {
-  return array.map(function(fullName){
-
+function nameToAttributes(names) {
+  return names.map(function(firstLastName){
+    let first = name.split(" ")[0]
+    let last = name.split(" ")[1]
+    return {firstName: first, lastName: last}
     })
-    return Object.assign({}, drivers, firstName, lastName)
-
 }
 
 // function attributesToPhrase() {
