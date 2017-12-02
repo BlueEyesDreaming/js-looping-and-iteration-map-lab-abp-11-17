@@ -1,6 +1,6 @@
 function lowerCaseDrivers(array){
-  return array.map(function(name){
-    return name.toLowerCase()
+  return array.map(function(driver){
+    return driver.toLowerCase()
   })
 }
 
@@ -8,9 +8,9 @@ function lowerCaseDrivers(array){
 
 
 function nameToAttributes(names) {
-  return names.map(function(name){
-    let first = name.split(" ")[0]
-    let last = name.split(" ")[1]
+  return names.map(function(driver){
+    let first = driver.split(" ")[0]
+    let last = driver.split(" ")[1]
     return {firstName: first, lastName: last}
     })
 }
