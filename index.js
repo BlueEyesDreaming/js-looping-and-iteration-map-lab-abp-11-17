@@ -4,34 +4,16 @@ function lowerCaseDrivers(array){
   })
 }
 
-// drivers.map(function(name) {
-//   return lowerCaseDrivers =
-// })
 
 
-// function map(array, callback) {
-//   const newArray = []
-//
-//   for (const element of array) {
-//     newArray.push(callback(element))
-//   }
-//   return newArray;
-// }
-//
-// const lowerCaseDrivers = map(drivers, function () {return newArray.toLowerCase()})
 
+function nameToAttributes(array) {
+  return array.map(function(fullName){
 
-//   const newDrivers = []
-//
-//   for (const element of drivers) {
-//
-//   }
-// }
+    return Object.assign({}, firstName, lastName)
+    })
+}
 
-// function nameToAttributes() {
-//
-// }
-//
 // function attributesToPhrase() {
 //
 // }
